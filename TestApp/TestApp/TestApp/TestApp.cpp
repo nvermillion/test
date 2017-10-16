@@ -11,6 +11,8 @@ int main()
 
 	double var = myTest.getValue();
 
+	auto result = myTest.add(var, 2.0);
+
     return 0;
 }
 
