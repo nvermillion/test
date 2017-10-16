@@ -7,6 +7,10 @@
 
 int main()
 {
+	auto myTest = TestClass1();
+
+	double var = myTest.getValue();
+
     return 0;
 }
 
