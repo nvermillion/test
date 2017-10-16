@@ -7,6 +7,7 @@ public:
 	~TestClass1();
 
 	double getValue();
+	double add(double a, double b);
 
 	double m_var;
 };

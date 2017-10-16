@@ -14,3 +14,8 @@ double TestClass1::getValue()
 {
 	return m_var;
 }
+
+double TestClass1::add(double a, double b)
+{
+	return a + b;
+}
