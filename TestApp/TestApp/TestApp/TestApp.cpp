@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include "TestClass1.h"
+#include <iostream>
 
 
 int main()
@@ -12,6 +13,8 @@ int main()
 	double var = myTest.getValue();
 
 	auto result = myTest.add(var, 2.0);
+
+	std::cout << result;
 
     return 0;
 }
